@@ -9,6 +9,9 @@ ECHO This script can be used to convert any JDK installation into a portable
 ECHO version. The main requirement is to download your preferred JDK installer from
 ECHO Oracle prior to proceeding with the conversion.
 ECHO.
+ECHO Make sure to run the script "As Administrator" in-order to modify the JAVA_HOME
+ECHO system environement variable.
+ECHO.
 
 CHOICE /C NY /M "Do you want to proceed"
 ECHO.
