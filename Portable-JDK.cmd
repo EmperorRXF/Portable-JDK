@@ -6,11 +6,11 @@ SET "SRC_UNZIP=http://dl.bintray.com/fernando/binaries/7z.exe"
 
 ECHO.
 ECHO This script can be used to convert any JDK installation into a portable
-ECHO version. The main requirement is to download your preferred JDK installer from
-ECHO Oracle prior to proceeding with the conversion.
+ECHO version. The only pre-requisite is to download your preferred JDK setup executable
+ECHO from Oracle prior to proceeding with the conversion.
 ECHO.
-ECHO Make sure to run the script "As Administrator" in-order to modify the JAVA_HOME
-ECHO system environement variable.
+ECHO If you're running on Windows 8 or above, make sure to run the script "As Administrator"
+ECHO to be able to change the JAVA_HOME system environement variable.
 ECHO.
 
 CHOICE /C NY /M "Do you want to proceed"
