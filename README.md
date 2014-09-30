@@ -15,11 +15,19 @@ Usage
 5. After pressing return, the script will start the extraction process and once completed, will prompt for confirmation on whether to update the <b>JAVA_HOME</b> environment variable path to the newly extracted folder.
 6. Proceed with "Y" or "N".
 
+An output of an example scenario is given below.
+![screenshot](http://i.imgur.com/qBrKa8Z.png)
+
+Now the extracted folder structure will look like this.
+![screenshot](http://i.imgur.com/4ZpLfKb.png)
+
 Remarks
 =======
+
 * Updating of the <b>JAVA_HOME</b> environment variable will only work if the batch script is run as an administrator. In Windows 7, scripts are run as Administrators by default, so this is not a concern most of the time. But Windows 8 and above will need explicit user consent.
 
 
 To Do
 =====
+
 * Check for user access level and dynamically display a warning if the script is not run as an Administrator.
